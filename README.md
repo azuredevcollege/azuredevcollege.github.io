@@ -1,4 +1,3 @@
-# azuredevcollege.github.io
-Azure Dev College Landing Page
+# Getting started
 
-[Training Days](https://azuredevcollege.com/trainingdays)
+Try our [training days](https://azuredevcollege.com/trainingdays)
