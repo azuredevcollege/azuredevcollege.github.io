@@ -1,21 +1,21 @@
 ---
 home: true
-heroImage: /adc-logo.png
-heroText: Azure Developer College
+heroImage: /azdc-logo.png
+heroText: Azure Developer Colleges
 tagline: Learn to build software on Microsofts Cloud.
-actionText: Get Started →
+actionText: Jetzt Anmelden →
 actionLink: /guide/
 features:
-  - title: 5 Days Basic Training
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: 2 Days AI Developer Training
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: 2 Days Container and Kubernetes
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+  - title: Azure Developer College (5 Tage)
+    details: Das Azure Developer College ist der Kick-Starter für die Ausbildung zum Cloud Native Application Developer. Teilnehmer*innen erhalten durch kombinierte Theorie- und Praxiselemente innerhalb eines einwöchigen Schulungsblockes das Handwerkszeug für erfolgreiche Softwareentwicklung in der Cloud.
+  - title: AI College for Developer (2 Tage)
+    details: Das AI College for Developers ist ein Deep-Dive in die Azure KI-Tools für Entwickler. Teilnehmer*innen erhalten durch kombinierte Theorie- und Praxiselemente innerhalb eines 2-tägigen Schulungsblockes das Handwerkszeug für die erfolgreiche Entwicklung von KI-Lösungen in der Cloud.
+  - title: Container and Kubernetes College (2 Tage)
+    details: Ein exklusives 2-tägiges Training (als Add-on für alle Alumni des Azure Developer Colleges) an. An diesen zwei Tagen wird auf Container-Technologien auf Azure fokussiert.
 footer: Copyright © 2020-present Microsoft Cloud Solution Architects OCP Germany
 ---
 
-# Getting started
+# Train the Trainer
 
-Try our [training days](https://azuredevcollege.com/trainingdays)
-
+Ihr wollt die Colleges bei euch intern im Unternehmen austragen? Lasst euch von unseren Cloud Solutions Architects zum Trainer ausbilden und organisiert eure eigenen Colleges!
+**Bei Interesse meldet euch bitte bei: t-kelghawi@microsoft.com oder raikher@microsoft.com**
