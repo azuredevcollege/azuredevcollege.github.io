@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  NODE_VERSION: 14
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,8 +21,13 @@ jobs:
 
       - uses: actions/setup-node@v2.1.4
         with:
-          node-version: '12'
-
+          node-version: ${{ env.NODE_VERSION }}
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ env.NODE_VERSION }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - run: npx vuepress build
       - name: Upload result of vuepress build
         uses: actions/upload-artifact@v2
