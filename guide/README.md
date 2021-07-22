@@ -1,12 +1,29 @@
 # Overview
 
-## College Calender
+## College Calender and Content
 
 [**Upcoming events, details and registration**](https://www.microsoft.com/de-de/partner/readiness/default.aspx?Suchbegriff=MSDE#main-content)
+
+Our workshops are publicly accessible content which can also be used for further education without registration.
+
+- [Azure Developer College](https://azuredevcollege.com/trainingdays/)
+- [AI College for Developer](https://github.com/aidevcollege/aidevcollege)
+- [Container College](https://azuredevcollege.com/trainingdays/day6/)
 
 ## Target group
 
 In particular, we are looking for partners who have a project in prospect, which we can accompany within the framework of the College and support through our Solution Architects (Build Track). Partners with projects will therefore be given priority in the College.
+
+## Dedicated Delivery
+
+You have many interested colleagues and would love a delivery of a college only for your organization? Let us know, so we can discuss the prerequisites and organize the college. **If you are interested, please contact: t-kelghawi@microsoft.com or raikher@microsoft.com**
+
+# Train the Trainer
+
+You want to hold the colleges internally in your company? Let our Cloud Solutions Architects train you as a trainer and organize your own colleges!
+**If you are interested, please contact: t-kelghawi@microsoft.com or raikher@microsoft.com**
+
+![TTT](../.vuepress/public/TTT.png)
 
 ## Azure Developer College
 
@@ -16,9 +33,7 @@ During the training week, what has been learned is applied directly in the hands
 
 ![AgendaAzureDevCollege](./../.vuepress/public/Agenda_AzureDevCollege.png)
 
-**[GitHub Repo](https://azuredevcollege.com/trainingdays/)**
-
-### Prerequisites
+**Prerequisites**
 
 [Tutorial: Set up system for Azure Developer College](https://azuredevcollege.com/trainingdays/day2/challenges/00-challenge-setup.html)
 
@@ -30,9 +45,7 @@ During the college, what is learned is directly applied in hands-on sessions. Up
 
 ![AgendaAICollege](../.vuepress/public/Agenda_AICollege.png)
 
-**[GitHub Repo](https://github.com/aidevcollege/aidevcollege)**
-
-### Prerequisites
+**Prerequisites**
 
 [Tutorial: Install Visual Studio Code](https://azuredevcollege.com/trainingdays/day2/challenges/00-challenge-setup.html#visual-studio-code)
 
@@ -44,15 +57,9 @@ We are exclusively offering you a 2-day training (as an add-on for all Azure Dev
 
 ![AgendaContainerCollege](./../.vuepress/public/Agenda_ContainerDays.png)
 
-**[GitHub Repo](https://azuredevcollege.com/trainingdays/day6/)** (Day 6/7)
-
-### Prerequisites
+**Prerequisites**
 
 [Tutorial: Setting up the system for the Container College](https://github.com/azuredevcollege/trainingdays/blob/master/day6/challenges/challenge0.md)
-
-## Train the Trainers
-
-You want to hold the colleges internally in your company? Let our Cloud Solutions Architects train you as a trainer and organize your own colleges! **If you are interested, please contact: t-kelghawi@microsoft.com or raikher@microsoft.com**
 
 ## FAQ
 
@@ -83,9 +90,16 @@ Suggestion: Charge the costs incurred to the company as expenses, of course afte
 This costs 100.00€ plus VAT and cannot be taken back as soon as it is awarded.
 
 **Permissions in the subscription**
-Please make sure that the following permissions are included in the subscription:
-- "Application Administrator"
-- Permission to deploy any resource
+Please make sure that the following roles are assigned to you:
+
+Azure Active Directory:
+
+- Application Administrator Role
+
+Subscription:
+
+- Owner Role
+- Permission to deploy any resource in your subscription
 
 A Paid Subscription (Option 2) as well as the Subscription we provide (Option 3) ensure this. Here you are a Global Administrator.
 

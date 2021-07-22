@@ -3,7 +3,7 @@ home: true
 heroImage: /azdc-logo.png
 heroText: Azure Developer Colleges
 tagline: Learn to build software on Microsofts Cloud.
-actionText: Register now →
+actionText: Details and Registration →
 actionLink: /guide/
 features:
   - title: Azure Developer College (5 Days)
