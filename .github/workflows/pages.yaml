@@ -47,8 +47,6 @@ jobs:
         with:
           name: static-website
           path: .vuepress/dist
-      - name: Create CNAME file
-        run: 'echo "azuredevcollege.com" > .vuepress/dist/CNAME'
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
